@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Hive Support - WordPress Plugin </title>
+
+    <!-- favicon -->
+    <link rel=icon href="favicon.png" sizes="16x16" type="icon/png">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Uicons Css -->
+    <link rel="stylesheet" href="assets/css/uicons-all.css">
+    <!-- FontAwesome Css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Flat Pickr Css -->
+    <link rel="stylesheet" href="assets/css/flatpicker.css">
+    <!-- TellInput Css -->
+    <link rel="stylesheet" href="assets/css/intlTelInput.css">
+    <!-- Select2 Css -->
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <!-- Summer note Css -->
+    <link rel="stylesheet" href="assets/css/summernote-lite.min.css">
+    <!-- Slick Css -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Dashboard area Starts -->
+    <div class="body-overlay"></div>
+    <div class="dashboard-area section-bg-1">
+        <div class="container-fluid p-0">
+            <div class="dashboard__contents__wrapper">
+                <div class="dashboard__icon">
+                    <div class="dashboard__icon__bars sidebar-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div class="dashboard__left dashboard-left-content">
+                    <div class="dashboard__left__main">
+                        <div class="dashboard__left__close close-bars"> <i class="fa-solid fa-times"></i> </div>
+                        <div class="dashboard__menu">
+                            <ul class="dashboard__menu__list dashboard-list">
+                                <li class="dashboard__menu__list__item">
+                                    <a href="dashboard.html"> 
+                                        <span class="icon"><i class="fi-rr-ticket"></i></span>
+                                        Dashboard 
+                                    </a>
+                                </li>
+                                <li class="dashboard__menu__list__item">
+                                    <a href="dashboard_support_stuff.html"> 
+                                        <span class="icon"><i class="fi-rr-headphones"></i></span>
+                                        Support Stuff 
+                                    </a> 
+                                </li>
+                                <li class="dashboard__menu__list__item"> 
+                                    <a href="dashboard_saved_responses.html"> 
+                                        <span class="icon"><i class="fi-rr-bookmark"></i></span>
+                                        Saved Responses 
+                                    </a> 
+                                </li>
+                                <li class="dashboard__menu__list__item"> 
+                                    <a href="dashboard_activities.html"> 
+                                        <span class="icon"><i class="fi-rr-list-check"></i></span>
+                                        Activities 
+                                    </a> 
+                                </li>
+                                <li class="dashboard__menu__list__item"> 
+                                    <a href="dashboard_reports.html"> 
+                                        <span class="icon"><i class="fi-rr-chart-line-up"></i></span>
+                                        Reports 
+                                    </a> 
+                                </li>
+                                <li class="dashboard__menu__list__item"> 
+                                    <a href="dashboard_automation.html"> 
+                                        <span class="icon"><i class="fi-rr-boxes"></i></span>
+                                        Automation 
+                                    </a> 
+                                </li>
+                                <li class="dashboard__menu__list__item has-children open show">
+                                    <a href="javascript:void(0)"> 
+                                        <span class="icon"><i class="fi-rr-settings"></i></span>
+                                        Settings 
+                                    </a>
+                                    <ul class="submenu">
+                                        <li class="dashboard__menu__list__item">
+                                            <a href="dashboard_businessInbox.html"> Business Inboxes </a>
+                                        </li>
+                                        <li class="dashboard__menu__list__item">
+                                            <a href="dashboard_addInboxes.html"> Add New Inboxes </a>
+                                        </li>
+                                        <li class="dashboard__menu__list__item has-children">
+                                            <a href="javascript:void(0)"> Integration Setting </a>
+                                            <ul class="submenu">
+                                                <li class="dashboard__menu__list__item">
+                                                    <a href="dashboard_integration.html"> Integration </a>
+                                                </li>
+                                                <li class="dashboard__menu__list__item">
+                                                    <a href="dashboard_facebookIntegration.html"> Facebook Integration </a>
+                                                </li>
+                                                <li class="dashboard__menu__list__item">
+                                                    <a href="dashboard_telegramIntegration.html"> Telegram Integration </a>
+                                                </li>
+                                                <li class="dashboard__menu__list__item">
+                                                    <a href="dashboard_slackIntegration.html"> Slack Integration </a>
+                                                </li>
+                                                <li class="dashboard__menu__list__item">
+                                                    <a href="dashboard_discordIntegration.html"> Discord Integration </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dashboard__menu__list__item active">
+                                            <a href="dashboard_customTicket.html"> Custom ticket field </a>
+                                        </li>
+                                        <li class="dashboard__menu__list__item">
+                                            <a href="dashboard_manageSubscription.html"> Mange subscription </a>
+                                        </li>
+                                        <li class="dashboard__menu__list__item">
+                                            <a href="dashboard_support.html"> Supports Display </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dashboard__footer">
+                            <div class="dashboard__footer__thumb">
+                                <a href="index.html"><img src="assets/img/dashboard/footer.png" alt=""></a>
+                            </div>
+                            <div class="dashboard__footer__contents">
+                                <p class="dashboard__footer__contents__para mt-3">Get All the features on <a href="index.html">HiveSupport</a> Pro</p>
+                                <div class="btn-wrapper mt-3">
+                                    <a href="javascript:void(0)" class="hive_btn btn_bg_1">Get Pro</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard__right">
+                    <div class="dashboard__body">
+                        <div class="dashboard__body__header header_bg">
+                            <div class="dashboard__body__header__flex">
+                                <h3 class="dashboard__body__header__title"><a href="dashboard_businessInbox.html"> <span class="icon"><i class="fi-rr-angle-small-left"></i></span> Customize input fields</a> </h3>
+                                <div class="dashboard__body__header__saved">
+                                    <div class="dashboard__body__header__saved__flex">
+                                        <div class="dashboard__body__header__saved__btn">
+                                            <a href="javascript:void(0)" class="hiveBtn delete__btn"> <i class="fi-rr-trash"></i> Delete Form </a>
+                                        </div>
+                                        <div class="dashboard__body__header__saved__btn">
+                                            <a href="javascript:void(0)" class="hiveBtn preview__btn"> <i class="fi-rr-eye"></i> Preview Form </a>
+                                        </div>
+                                        <div class="dashboard__body__header__saved__btn">
+                                            <a href="javascript:void(0)" class="hiveBtn saved__btn"> <i class="fi-rr-cloud-check"></i> Form Saved </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dashboard__body__header__switch">
+                                    <label for="Published" class="dashboard__body__header__switch__para">Published</label>
+                                    <div class="custom-switch">
+                                        <label class="switch round-switch">
+                                            <input type="checkbox" id="Published" checked>
+                                            <span class="slider"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-4 mt-2">
+                            <div class="col-lg-7">
+                                <div class="hiveInput">
+                                    <div class="dashboard__body__single">
+                                        <div class="hiveInputField">
+                                            <h4 class="hiveInputField__title"> Build Custom Inputs Fields </h4>
+                                            <p class="hiveInputField__para mt-2"> Drag and drop input fields here from right sidebar to build custom ticket fields </p>
+                                            <ul class="hiveSortable_drag list-none mt-4">
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav">  Single Line Text Area </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete"><i class="fi-rr-trash"></i></div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__form">
+                                                            <form action="#">
+                                                                <div class="single-input">
+                                                                    <label class="label-title"> First Name </label>
+                                                                    <input type="text" class="form--control" placeholder="Enter First Name">
+                                                                </div>
+                                                                <span class="hiveInputField__contents__form__span"> Instructions for the user goes here </span>
+                                                            </form>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__checkbox margin-top-15">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Optional12">
+                                                                    <label class="checkbox-label" for="Optional12"> Optional </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Required12" checked>
+                                                                    <label class="checkbox-label" for="Required12"> Required </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav">  Single Line Text Area </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete">
+                                                                        <i class="fi-rr-trash"></i>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__form">
+                                                            <form action="#">
+                                                                <div class="single-flex-input">
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Input field label">
+                                                                    </div>
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Input field name">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="single-flex-input">
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Instruction for the user">
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__checkbox margin-top-15">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Optional2">
+                                                                    <label class="checkbox-label" for="Optional2"> Optional </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Required2" checked>
+                                                                    <label class="checkbox-label" for="Required2"> Required </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__addField mt-4">
+                                                            <a href="javascript:void(0)" class="hiveInputField__contents__addField__btn"> 
+                                                                <span class="hiveInputField__contents__addField__btn__icon"> <i class="fa-solid fa-plus"></i> </span> 
+                                                                <span class="hiveInputField__contents__addField__btn__title"> Add another field </span> 
+                                                            </a>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav">  Numeric fields </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete">
+                                                                        <i class="fi-rr-trash"></i>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__form custom-form">
+                                                            <form action="#">
+                                                                <div class="single-input">
+                                                                    <label for="phone" class="label-title">Phone number</label>
+                                                                    <input type="tel" id="phone" class="form--control" placeholder="Enter your phone number">
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__checkbox mt-3">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Optional3">
+                                                                    <label class="checkbox-label" for="Optional3"> Optional </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Required3" checked>
+                                                                    <label class="checkbox-label" for="Required3"> Required </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav">  Numeric fields </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete">
+                                                                        <i class="fi-rr-trash"></i>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__form custom-form">
+                                                            <form action="#">
+                                                                <div class="single-flex-input">
+                                                                    <div class="single-input">
+                                                                        <input type="tel" class="form--control phone2" placeholder="Enter your phone number">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="single-flex-input">
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Input field label">
+                                                                    </div>
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Input field name">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="single-flex-input">
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Instruction for the user">
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__checkbox margin-top-15">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Optional4">
+                                                                    <label class="checkbox-label" for="Optional4"> Optional </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Required4" checked>
+                                                                    <label class="checkbox-label" for="Required4"> Required </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav">  Quantity fields </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete">
+                                                                        <i class="fi-rr-trash"></i>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__form custom-form">
+                                                            <form action="#">
+                                                                <div class="single-input">
+                                                                    <label class="label-title"> How many products? </label>
+                                                                    <div class="common-quantity">
+                                                                        <span class="substract quantity-icon"> - </span>
+                                                                        <input class="common-quantity-input quantity-input form--control" type="number" value="1">
+                                                                        <span class="plus quantity-icon"> + </span>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__checkbox mt-3">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Optional5">
+                                                                    <label class="checkbox-label" for="Optional5"> Optional </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Required5" checked>
+                                                                    <label class="checkbox-label" for="Required5"> Required </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav">  Quantity fields </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete">
+                                                                        <i class="fi-rr-trash"></i>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__form custom-form">
+                                                            <form action="#">
+                                                                <div class="single-input">
+                                                                    <input type="text" class="form--control" placeholder="Input field label">
+                                                                </div>
+                                                                <div class="single-input">
+                                                                    <input type="text" class="form--control" placeholder="Instruction for the user">
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__checkbox mt-3">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Optional6">
+                                                                    <label class="checkbox-label" for="Optional6"> Optional </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Required6" checked>
+                                                                    <label class="checkbox-label" for="Required6"> Required </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav">  Single selection </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete">
+                                                                        <i class="fi-rr-trash"></i>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__form custom-form">
+                                                            <form action="#">
+                                                                <div class="custom-radio">
+                                                                    <div class="custom-radio-item">
+                                                                        <div class="custom-radio-flex">
+                                                                            <div class="custom-radio-option">
+                                                                                <input class="radio-input" type="radio" name="size" id="option5">
+                                                                                <label for="option5"> Option One </label>
+                                                                            </div>
+                                                                            <div class="custom-radio-close"> 
+                                                                                <i class="fi-rr-cross-small"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="custom-radio-item">
+                                                                        <div class="custom-radio-flex">
+                                                                            <div class="custom-radio-option">
+                                                                                <input class="radio-input" type="radio" name="size" id="option6" checked>
+                                                                                <label for="option6"> Option Two </label>
+                                                                            </div>
+                                                                            <div class="custom-radio-close"> 
+                                                                                <i class="fi-rr-cross-small"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="custom-radio-item">
+                                                                        <div class="custom-radio-flex">
+                                                                            <div class="custom-radio-option">
+                                                                                <input class="radio-input" type="radio" name="size" id="option7">
+                                                                                <label for="option7"> Option Three </label>
+                                                                            </div>
+                                                                            <div class="custom-radio-close"> 
+                                                                                <i class="fi-rr-cross-small"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__checkbox mt-3">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Optional7">
+                                                                    <label class="checkbox-label" for="Optional7"> Optional </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Required7" checked>
+                                                                    <label class="checkbox-label" for="Required7"> Required </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__addField mt-4">
+                                                            <a href="javascript:void(0)" class="hiveInputField__contents__addField__btn"> 
+                                                                <span class="hiveInputField__contents__addField__btn__icon"> <i class="fa-solid fa-plus"></i> </span> 
+                                                                <span class="hiveInputField__contents__addField__btn__title"> Add another field </span> 
+                                                            </a>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav">  Check boxes </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete">
+                                                                        <i class="fi-rr-trash"></i>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__checkbox">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="conditions" checked>
+                                                                    <label class="checkbox-label" for="conditions"> You’re agreeing with our terms and conditions </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav">  Check boxes </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete">
+                                                                        <i class="fi-rr-trash"></i>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__form custom-form">
+                                                            <form action="#">
+                                                                <div class="custom-checkbox">
+                                                                    <div class="custom-checkbox-item">
+                                                                        <div class="custom-checkbox-flex">
+                                                                            <div class="checkbox-inline">
+                                                                                <input class="check-input" type="checkbox" id="box1">
+                                                                                <label class="checkbox-label" for="box1"> Option One </label>
+                                                                            </div>
+                                                                            <div class="custom-radio-close"> 
+                                                                                <i class="fi-rr-cross-small"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="custom-checkbox-item">
+                                                                        <div class="custom-checkbox-flex">
+                                                                            <div class="checkbox-inline">
+                                                                                <input class="check-input" type="checkbox" id="box2" checked>
+                                                                                <label class="checkbox-label" for="box2"> Option Two </label>
+                                                                            </div>
+                                                                            <div class="custom-radio-close"> 
+                                                                                <i class="fi-rr-cross-small"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="custom-checkbox-item">
+                                                                        <div class="custom-checkbox-flex">
+                                                                            <div class="checkbox-inline">
+                                                                                <input class="check-input" type="checkbox" id="box3">
+                                                                                <label class="checkbox-label" for="box3"> Option Three </label>
+                                                                            </div>
+                                                                            <div class="custom-radio-close"> 
+                                                                                <i class="fi-rr-cross-small"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__checkbox mt-3">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Optional8" checked>
+                                                                    <label class="checkbox-label" for="Optional8"> Optional </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Required8">
+                                                                    <label class="checkbox-label" for="Required8"> Required </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__addField mt-4">
+                                                            <a href="javascript:void(0)" class="hiveInputField__contents__addField__btn"> 
+                                                                <span class="hiveInputField__contents__addField__btn__icon"> <i class="fa-solid fa-plus"></i> </span> 
+                                                                <span class="hiveInputField__contents__addField__btn__title"> Add another field </span> 
+                                                            </a>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav">  Date picker </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete">
+                                                                        <i class="fi-rr-trash"></i>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__form custom-form">
+                                                            <form action="#">
+                                                                <div class="single-flex-input">
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Date Picker Label">
+                                                                    </div>
+                                                                    <div class="single-input">
+                                                                        <input type="date" class="form--control date-picker">
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__checkbox mt-3">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Optional9" checked>
+                                                                    <label class="checkbox-label" for="Optional9"> Optional </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Required9">
+                                                                    <label class="checkbox-label" for="Required9"> Required </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__addField mt-4">
+                                                            <a href="javascript:void(0)" class="hiveInputField__contents__addField__btn"> 
+                                                                <span class="hiveInputField__contents__addField__btn__icon"> <i class="fa-solid fa-plus"></i> </span> 
+                                                                <span class="hiveInputField__contents__addField__btn__title"> Add another date </span> 
+                                                            </a>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav">  Upload files </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete">
+                                                                        <i class="fi-rr-trash"></i>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__form custom-form">
+                                                            <form action="#">
+                                                                <div class="single-flex-input">
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="File type">
+                                                                    </div>
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Size limit">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="single-flex-input">
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Instruction for the user">
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__checkbox mt-3">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Optional10" checked>
+                                                                    <label class="checkbox-label" for="Optional10"> Optional </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Required10">
+                                                                    <label class="checkbox-label" for="Required10"> Required </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__addField mt-4">
+                                                            <a href="javascript:void(0)" class="hiveInputField__contents__addField__btn"> 
+                                                                <span class="hiveInputField__contents__addField__btn__icon"> <i class="fa-solid fa-plus"></i> </span> 
+                                                                <span class="hiveInputField__contents__addField__btn__title"> Add another field </span> 
+                                                            </a>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item sortItemRemove hiveInputField__border hiveInputField__padding radius-10">
+                                                    <div class="hiveInputField__header">
+                                                        <div class="hiveInputField__header__flex">
+                                                            <div class="hiveInputField__header__title sortable_accordion">
+                                                                <h5 class="title title_arrow"> <img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"> Dropdown </h5>
+                                                            </div>
+                                                            <div class="hiveInputField__header__right">
+                                                                <div class="hiveInputField__header__right__flex">
+                                                                    <div class="hiveInputField__header__right__icon sortDelete">
+                                                                        <i class="fi-rr-trash"></i>
+                                                                    </div>
+                                                                    <a href="javascript:void(0)" class="hiveInputField__header__right__icon edit"> <i class="fi-rr-edit"></i> </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hiveInputField__contents profile-border-top">
+                                                        <div class="hiveInputField__contents__form custom-form">
+                                                            <form action="#">
+                                                                <div class="single-flex-input">
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Dropdown label">
+                                                                    </div>
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Dropdown name">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="single-flex-input">
+                                                                    <div class="single-input">
+                                                                        <input type="text" class="form--control" placeholder="Instruction for the user">
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="hiveSortable_inner mt-4">
+                                                            <ul class="hiveSortable_dragInner hiveSortable_drag list-none">
+                                                                <li class="hiveSortable_dragInner__item sortItemRemove">
+                                                                    <div class="hiveSortable_dragInner__item__left">
+                                                                        <div class="hiveSortable_dragInner__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                                        <div class="hiveSortable_dragInner__item__sortInput">
+                                                                            <input type="text" class="form--control" value="Option 1">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="hiveSortable_dragInner__item__right">
+                                                                        <div class="hiveSortable_dragInner__item__close sortDelete"><i class="fi-rr-cross-small"></i></div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="hiveSortable_dragInner__item sortItemRemove">
+                                                                    <div class="hiveSortable_dragInner__item__left">
+                                                                        <div class="hiveSortable_dragInner__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                                        <div class="hiveSortable_dragInner__item__sortInput">
+                                                                            <input type="text" class="form--control" value="Option 2">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="hiveSortable_dragInner__item__right">
+                                                                        <div class="hiveSortable_dragInner__item__close sortDelete"><i class="fi-rr-cross-small"></i></div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="hiveSortable_dragInner__item sortItemRemove">
+                                                                    <div class="hiveSortable_dragInner__item__left">
+                                                                        <div class="hiveSortable_dragInner__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                                        <div class="hiveSortable_dragInner__item__sortInput">
+                                                                            <input type="text" class="form--control" value="Option 3">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="hiveSortable_dragInner__item__right">
+                                                                        <div class="hiveSortable_dragInner__item__close sortDelete"><i class="fi-rr-cross-small"></i></div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="hiveSortable_dragInner__item sortItemRemove">
+                                                                    <div class="hiveSortable_dragInner__item__left">
+                                                                        <div class="hiveSortable_dragInner__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                                        <div class="hiveSortable_dragInner__item__sortInput">
+                                                                            <input type="text" class="form--control" value="Option 4">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="hiveSortable_dragInner__item__right">
+                                                                        <div class="hiveSortable_dragInner__item__close sortDelete"><i class="fi-rr-cross-small"></i></div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="hiveSortable_dragInner__item sortItemRemove">
+                                                                    <div class="hiveSortable_dragInner__item__left">
+                                                                        <div class="hiveSortable_dragInner__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                                        <div class="hiveSortable_dragInner__item__sortInput">
+                                                                            <input type="text" class="form--control" value="Option 5">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="hiveSortable_dragInner__item__right">
+                                                                        <div class="hiveSortable_dragInner__item__close sortDelete"><i class="fi-rr-cross-small"></i></div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__checkbox mt-4">
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Optional11" checked>
+                                                                    <label class="checkbox-label" for="Optional11"> Optional </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="checkbox-single">
+                                                                <div class="checkbox-inline">
+                                                                    <input class="check-input" type="checkbox" id="Required11">
+                                                                    <label class="checkbox-label" for="Required11"> Required </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="hiveInputField__contents__addField mt-4">
+                                                            <a href="javascript:void(0)" class="hiveInputField__contents__addField__btn"> 
+                                                                <span class="hiveInputField__contents__addField__btn__icon"> <i class="fa-solid fa-plus"></i> </span> 
+                                                                <span class="hiveInputField__contents__addField__btn__title"> Add another field </span> 
+                                                            </a>
+                                                        </div>
+                                                        <div class="btn-wrapper mt-3">
+                                                            <a href="javascript:void(0)" class="hive_btn btn_bg_1 btn_small"> Save </a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortable_drag__item">
+                                                    <label class="hive_dropMedia radius-10" for="inputTag">
+                                                        <input type="file" class="hive_dropMedia__uploader" id="inputTag">
+                                                        <span class="hive_dropMedia__file" id="uploadImage">Drop Here</span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="hiveCustomInput">
+                                    <div class="hiveSortableCustom__sidebar">
+                                        <div class="hiveSortableCustom__sidebar__header">
+                                            <h4 class="hiveSortableCustom__sidebar__header__title">Custom Input Fields</h4>
+                                        </div>
+                                        <div class="hiveSortableCustom__sidebar__contents profile-border-top">
+                                            <ul class="hiveSortableCustom__drag hiveSortable_drag list-none">
+                                                <li class="hiveSortableCustom__drag__item">
+                                                    <div class="hiveSortableCustom__drag__item__flex">
+                                                        <div class="hiveSortableCustom__drag__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                        <div class="hiveSortableCustom__drag__item__contents">
+                                                            <div class="hiveSortableCustom__drag__item__icon"><i class="fi-rr-text"></i></div>
+                                                            <div class="hiveSortableCustom__drag__item__details">
+                                                                <h4 class="hiveSortableCustom__drag__item__details__title">Single line text area</h4>
+                                                                <p class="hiveSortableCustom__drag__item__details__para">Use it if user required to input single line texts</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortableCustom__drag__item">
+                                                    <div class="hiveSortableCustom__drag__item__flex">
+                                                        <div class="hiveSortableCustom__drag__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                        <div class="hiveSortableCustom__drag__item__contents">
+                                                            <div class="hiveSortableCustom__drag__item__icon"><i class="fi-rr-align-left"></i></div>
+                                                            <div class="hiveSortableCustom__drag__item__details">
+                                                                <h4 class="hiveSortableCustom__drag__item__details__title">Multiline text area</h4>
+                                                                <p class="hiveSortableCustom__drag__item__details__para">Use it if user required to input multiline texts</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortableCustom__drag__item">
+                                                    <div class="hiveSortableCustom__drag__item__flex">
+                                                        <div class="hiveSortableCustom__drag__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                        <div class="hiveSortableCustom__drag__item__contents">
+                                                            <div class="hiveSortableCustom__drag__item__icon"><i class="fi-rr-sort-numeric-down-alt"></i></div>
+                                                            <div class="hiveSortableCustom__drag__item__details">
+                                                                <h4 class="hiveSortableCustom__drag__item__details__title">Numeric fields</h4>
+                                                                <p class="hiveSortableCustom__drag__item__details__para">Use it if user required to input Phone number, Quantity, Numbers</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortableCustom__drag__item">
+                                                    <div class="hiveSortableCustom__drag__item__flex">
+                                                        <div class="hiveSortableCustom__drag__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                        <div class="hiveSortableCustom__drag__item__contents">
+                                                            <div class="hiveSortableCustom__drag__item__icon"><i class="fi-rr-record-vinyl"></i></div>
+                                                            <div class="hiveSortableCustom__drag__item__details">
+                                                                <h4 class="hiveSortableCustom__drag__item__details__title">Single selection</h4>
+                                                                <p class="hiveSortableCustom__drag__item__details__para">Use it if user required to select a single option from multiple options</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortableCustom__drag__item">
+                                                    <div class="hiveSortableCustom__drag__item__flex">
+                                                        <div class="hiveSortableCustom__drag__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                        <div class="hiveSortableCustom__drag__item__contents">
+                                                            <div class="hiveSortableCustom__drag__item__icon"><i class="fi-rr-checkbox"></i></div>
+                                                            <div class="hiveSortableCustom__drag__item__details">
+                                                                <h4 class="hiveSortableCustom__drag__item__details__title">Check boxes</h4>
+                                                                <p class="hiveSortableCustom__drag__item__details__para">Use it if user required to Agree or have to select multiple options</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortableCustom__drag__item">
+                                                    <div class="hiveSortableCustom__drag__item__flex">
+                                                        <div class="hiveSortableCustom__drag__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                        <div class="hiveSortableCustom__drag__item__contents">
+                                                            <div class="hiveSortableCustom__drag__item__icon"><i class="fi-rr-calendar"></i></div>
+                                                            <div class="hiveSortableCustom__drag__item__details">
+                                                                <h4 class="hiveSortableCustom__drag__item__details__title">Date Picker</h4>
+                                                                <p class="hiveSortableCustom__drag__item__details__para">Use it if user required to pick dates</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortableCustom__drag__item">
+                                                    <div class="hiveSortableCustom__drag__item__flex">
+                                                        <div class="hiveSortableCustom__drag__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                        <div class="hiveSortableCustom__drag__item__contents">
+                                                            <div class="hiveSortableCustom__drag__item__icon"><i class="fi-rr-upload"></i></div>
+                                                            <div class="hiveSortableCustom__drag__item__details">
+                                                                <h4 class="hiveSortableCustom__drag__item__details__title">Upload media, files</h4>
+                                                                <p class="hiveSortableCustom__drag__item__details__para">Use it if user required to upload Media and files</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="hiveSortableCustom__drag__item">
+                                                    <div class="hiveSortableCustom__drag__item__flex">
+                                                        <div class="hiveSortableCustom__drag__item__sortThumb"><img src="assets/img/dashboard/dashboard_icon/dot-nav.svg" alt="dotnav"></div>
+                                                        <div class="hiveSortableCustom__drag__item__contents">
+                                                            <div class="hiveSortableCustom__drag__item__icon"><i class="fi-rr-angle-circle-down"></i></div>
+                                                            <div class="hiveSortableCustom__drag__item__details">
+                                                                <h4 class="hiveSortableCustom__drag__item__details__title">Dropdown field</h4>
+                                                                <p class="hiveSortableCustom__drag__item__details__para">Use it if user required to input Size, Quantity</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dashboard area end -->
+
+    <!-- Mouse Cursor start -->
+    <div class="mouse-move mouse-outer"></div>
+    <div class="mouse-move mouse-inner"></div>
+    <!-- Mouse Cursor Ends -->
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- jquery Migrate -->
+    <script src="assets/js/jquery-migrate.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Flat Pickr Js -->
+    <script src="assets/js/flatpicker.js"></script>
+    <!-- Wow Js -->
+    <script src="assets/js/wow.js"></script>
+    <!-- TellInput Js -->
+    <script src="assets/js/intlTelInput.js"></script>
+    <!--  Summer note Js -->
+    <script src="assets/js/summernote-lite.min.js"></script>
+    <!-- Slick Js -->
+    <script src="assets/js/slick.js"></script>
+    <!-- Select2 Js -->
+    <script src="assets/js/select2.min.js"></script>
+    <!-- Circle Progressbar Js -->
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <!-- Chart Js -->
+    <script src="assets/js/chart.js"></script>
+    <!-- Sortable Js -->
+    <script src="assets/js/jquery-sortable-min.js"></script>
+    <!-- Countdown Timer Js -->
+    <script src="assets/js/jquery.syotimer.min.js"></script>
+    <!-- Masonry Js -->
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
